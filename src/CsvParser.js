@@ -116,7 +116,7 @@ class CsvParser {
     }
 
     const jsonData = JSON.stringify({
-      version: 0.1,
+      version: '0.1',
       description: 'COVID-19 report from NYT',
       data: this.jsonData,
     });
