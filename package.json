@@ -1,0 +1,29 @@
+{
+  "name": "covid19-nyt-api",
+  "version": "1.0.0",
+  "description": "Sync COVID19 API directly from NYT",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "csv-parse": "^4.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rameshrr/covid19-nyt-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rameshrr/covid19-nyt-api/issues"
+  },
+  "homepage": "https://github.com/rameshrr/covid19-nyt-api#readme"
+}
