@@ -115,7 +115,11 @@ class CsvParser {
       /// TODO: Process
     }
 
-    const jsonData = JSON.stringify(this.jsonData);
+    const jsonData = JSON.stringify({
+      version: 0.1,
+      description: 'COVID-19 report from NYT',
+      data: this.jsonData,
+    });
 
     try {
       if (!fs.existsSync(this.outputPath)) {
